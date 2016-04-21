@@ -1,0 +1,5 @@
+*.swp
+*.swo
+docker-compose.yml
+mn-cert
+volumes
