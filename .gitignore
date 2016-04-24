@@ -3,3 +3,4 @@
 docker-compose.yml
 mn-cert
 volumes
+.env
