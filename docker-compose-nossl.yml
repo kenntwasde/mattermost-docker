@@ -14,7 +14,7 @@ app:
   links:
     - db:db
   ports:
-    - "80:80"
+    - "127.0.0.1:8003:80"
   volumes:
     - ./volumes/app/mattermost/config:/mattermost/config:rw
     - ./volumes/app/mattermost/data:/mattermost/data:rw

@@ -10,7 +10,7 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 ADD make_db.sh /docker-entrypoint-initdb.d/
-ADD setup-wale.sh /docker-entrypoint-initdb.d/
+#ADD setup-wale.sh /docker-entrypoint-initdb.d/
 COPY docker-entrypoint1.sh /
 
 ENTRYPOINT ["/docker-entrypoint1.sh"]
